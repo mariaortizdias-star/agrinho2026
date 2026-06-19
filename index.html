@@ -1,73 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agro Forte e Sustentável</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agro Forte e Sustentável</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- PARTE 1: MENU DE NAVEGAÇÃO -->
-    <header class="header">
-        <div class="logo">AgroForte</div>
-        <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">☰</button>
-        <nav class="nav" id="navMenu">
-            <ul>
-                <li><a href="#destaques">Destaques</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <h1>🌱 Agro Forte e Sustentável</h1>
+    <p>Unindo tecnologia, produção e cuidado com o meio ambiente</p>
+  </header>
 
-    <!-- PARTE 2: DESTAQUES (HERO SECTION) -->
-    <section id="destaques" class="destaques-section">
-        <div class="destaques-conteudo">
-            <h1>O Futuro da Agricultura é Forte e Sustentável</h1>
-            <p>Unimos alta produtividade no campo com o respeito ao meio ambiente através de tecnologia de ponta.</p>
-            <a href="#servicos" class="btn-principal">Conheça Nossos Serviços</a>
-        </div>
-    </section>
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#importancia">Importância</a>
+    <a href="#tecnologias">Tecnologias</a>
+    <a href="#contato">Contato</a>
+  </nav>
 
-    <!-- PARTE 3: SERVIÇOS (4 CARDS) -->
-    <section id="servicos" class="servicos-section">
-        <h2>Nossos Serviços</h2>
-        <div class="cards-container">
-            <div class="card">
-                <h3>Consultoria Verde</h3>
-                <p>Otimização de lavouras com foco em redução de impactos ambientais e aumento real de lucro.</p>
-            </div>
-            <div class="card">
-                <h3>Tecnologia de Precisão</h3>
-                <p>Uso de sensores de solo e mapeamento por satélite para o manejo inteligente da sua produção.</p>
-            </div>
-            <div class="card">
-                <h3>Manejo Biológico</h3>
-                <p>Substituição progressiva de defensivos químicos por soluções bio Sustentáveis de alta performance.</p>
-            </div>
-            <div class="card">
-                <h3>Crédito de Carbono</h3>
-                <p>Auxílio completo para certificar sua propriedade e lucrar com a preservação de florestas nativas.</p>
-            </div>
-        </div>
-    </section>
+  <section class="hero">
+    <h2>O futuro do campo é sustentável</h2>
+    <button onclick="mostrarMensagem()">Saiba mais</button>
+    <p id="mensagem"></p>
+  </section>
 
-    <!-- PARTE 4: CONTATO E REDES SOCIAIS -->
-    <footer id="contato" class="footer-section">
-        <h2>Fale Conosco</h2>
-        <p>Pronto para transformar sua produção agrária? Entre em contato agora mesmo!</p>
-        <div class="botoes-contato">
-            <a href="https://wa.me" target="_blank" class="btn-social whatsapp">
-                WhatsApp: (44) 991329759
-            </a>
-            <a href="https://instagram.com" target="_blank" class="btn-social instagram">
-                Instagram: @__s4ntoszz
-            </a>
-        </div>
-        <p class="diretos-autorais">&copy; 2026 Agro Forte e Sustentável. Todos os direitos reservados.</p>
-    </footer>
+  <section id="sobre">
+    <h2>🌾 Sobre o tema</h2>
+    <p>
+      O agronegócio sustentável busca produzir alimentos com responsabilidade ambiental,
+      preservando recursos naturais e garantindo qualidade de vida.
+    </p>
+  </section>
 
-    <script src="script.js"></script>
+  <section id="importancia">
+    <h2>🌎 Importância</h2>
+    <ul>
+      <li>Preservação do solo e da água</li>
+      <li>Redução do uso de agrotóxicos</li>
+      <li>Produção mais eficiente</li>
+      <li>Equilíbrio entre economia e natureza</li>
+    </ul>
+  </section>
+
+  <section id="tecnologias">
+    <h2>🚜 Tecnologias no campo</h2>
+    <p>Drones, sensores, irrigação inteligente e agricultura de precisão ajudam a aumentar a produção e reduzir impactos ambientais.</p>
+  </section>
+
+  <section id="contato">
+    <h2>📩 Contato</h2>
+    <p>Projeto Agrinho - Agro Forte e Sustentável</p>
+  </section>
+
+  <footer>
+    <p>Feito para o projeto Agrinho 🌱</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
